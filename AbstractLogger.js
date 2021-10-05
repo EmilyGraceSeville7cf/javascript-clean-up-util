@@ -7,28 +7,28 @@ class AbstractLogger {
   /**
    * Writes normal message into log stream.
    *
-   * @param {message} message Message to log.
+   * @param {string} message Message to log.
    */
   writeLog(message) {}
 
   /**
    * Writes info message into log stream.
    *
-   * @param {message} message Message to log.
+   * @param {string} message Message to log.
    */
   writeInfo(message) {}
 
   /**
    * Writes warn message into log stream.
    *
-   * @param {message} message Message to log.
+   * @param {string} message Message to log.
    */
   writeWarn(message) {}
 
   /**
    * Writes error message into log stream.
    *
-   * @param {message} message Message to log.
+   * @param {string} message Message to log.
    */
   writeError(message) {}
 
