@@ -72,8 +72,6 @@ TextLogger.prototype.writeLine = function () {
   this.file.setContent(`${this.file.getBlob().getDataAsString()}\n`);
 }
 
-console.log(TextLogger.prototype.constructor)
-
 Object.defineProperty(TextLogger.prototype, 'constructor', {
   value: TextLogger,
   writable: true
