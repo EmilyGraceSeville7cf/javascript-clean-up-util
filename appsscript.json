@@ -1,7 +1,15 @@
 {
   "timeZone": "Asia/Vladivostok",
-  "dependencies": {
-  },
   "exceptionLogging": "STACKDRIVER",
-  "runtimeVersion": "V8"
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "customloggerslib",
+        "version": "0",
+        "libraryId": "1c3VedtV4S_7mxCtKUV81fylHYRGZqcUymfK3G5vn4RF6OP5TJBE9W64v",
+        "developmentMode": true
+      }
+    ]
+  }
 }

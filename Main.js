@@ -9,7 +9,7 @@
 "use strict";
 
 function main() {
-  let logger = new TextLogger("0AJJhQCu2pGhAUk9PVA", "clean-up-log.log");
+  let logger = customloggerslib.newTextLogger("0AJJhQCu2pGhAUk9PVA", "clean-up-log.log");
 
   try {
     logger.writeInfo("Checking config...");
