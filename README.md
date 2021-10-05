@@ -44,3 +44,7 @@ Tool to clean-up your drive via creating missing folders if necessary.
     }
 }
 ```
+
+## Notes
+
+Don't update `.clasp.json` in this repository but change `rootDir` in it after `clasp pull` to match your project directory.
