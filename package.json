@@ -1,0 +1,26 @@
+{
+  "name": "clean-up-util",
+  "version": "1.0.0",
+  "description": "Tool to clean-up your drive via creating missing folders if necessary.",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Console-Utils/clean-up.git"
+  },
+  "author": "Emily Seville",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Console-Utils/clean-up/issues"
+  },
+  "homepage": "https://github.com/Console-Utils/clean-up#readme",
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.37"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
