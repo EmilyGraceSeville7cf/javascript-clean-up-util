@@ -16,10 +16,9 @@
     "url": "https://github.com/Console-Utils/clean-up/issues"
   },
   "homepage": "https://github.com/Console-Utils/clean-up#readme",
-  "dependencies": {
-    "@types/google-apps-script": "^1.0.37"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@types/google-apps-script": "^1.0.37",
     "eslint": "^7.32.0",
     "eslint-config-google": "^0.14.0"
   }
