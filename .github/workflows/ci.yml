@@ -4,6 +4,16 @@ on:
     branches: [ master ]
 
 jobs:
+  js-lint:
+    runs-on: ubuntu-20.04
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: lint
+        run: |
+          npm install
+          npx eslint *.js
+  
   markdown-lint:
     runs-on: ubuntu-20.04
     
