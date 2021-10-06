@@ -1,0 +1,39 @@
+# MD010/no-hard-tabs - Hard tabs
+MD010:
+  # Number of spaces for each hard tab
+  spaces_per_tab: 2
+
+# MD013/line-length - Line length
+MD013:
+  # Number of characters
+  line_length: 200
+  # Number of characters for headings
+  heading_line_length: 40
+  # Number of characters for code blocks
+  code_block_line_length: 80
+
+# MD024/no-duplicate-heading/no-duplicate-header - Multiple headings with the same content
+MD024:
+  # Only check sibling headings
+  siblings_only: true
+
+# MD026/no-trailing-punctuation - Trailing punctuation in heading
+MD026:
+  # Punctuation characters
+  punctuation: ".,;:!?"
+
+# MD036/no-emphasis-as-heading/no-emphasis-as-header - Emphasis used instead of a heading
+MD036:
+  # Punctuation characters
+  punctuation: ".,;:!?"
+
+# MD043/required-headings/required-headers - Required heading structure
+MD043:
+  # List of headings
+  headings:
+    - "+"
+    - "## Description"
+    - "## Requirenments"
+    - "## Config files"
+    - "## Examples"
+    - "*"
