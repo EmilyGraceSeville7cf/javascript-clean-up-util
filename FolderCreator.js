@@ -36,7 +36,7 @@ class FolderCreator {
     // eslint-disable-next-line require-jsdoc
     function create(where, parsed) {
       for (const key in parsed) {
-        if (Object.hasOwnProperty(key)) {
+        if (parsed.hasOwnProperty(key)) {
           const iterator = where.getFoldersByName(key);
           if (!iterator.hasNext()) {
             this.__logger.writeInfo(
@@ -54,7 +54,7 @@ class FolderCreator {
       }
 
       for (const key in parsed) {
-        if (Object.hasOwnProperty(key)) {
+        if (parsed.hasOwnProperty(key)) {
           const value = parsed[key];
           if (typeof value === 'object') {
             const iterator = where.getFoldersByName(key);
