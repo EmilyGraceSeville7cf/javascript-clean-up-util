@@ -1,5 +1,7 @@
 # Drive cleaner
 
+[![Continuous Integration](https://github.com/Console-Utils/clean-up-util/actions/workflows/ci.yml/badge.svg)](https://github.com/Console-Utils/clean-up-util/actions/workflows/ci.yml)
+
 ## Description
 
 Tool to clean-up your drive via creating missing folders if necessary.
