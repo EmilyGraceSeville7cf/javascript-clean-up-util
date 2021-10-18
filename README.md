@@ -4,6 +4,8 @@
 
 ## Description
 
+> ⚠️ This project is no longer maintained.
+
 Tool to clean-up your drive via creating missing folders if necessary.
 
 ## Requirenments
